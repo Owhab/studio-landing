@@ -24,7 +24,8 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    padding: 40px 0 33px 0;
+    color: #757575;
+    
 
 }
 
@@ -84,6 +85,7 @@ body{
 
 }
 .hero-text{
+    padding: 40px 0 33px 0;
  
 
 }
@@ -101,6 +103,18 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
+}
+.client-content{
+    min-width: 30%;
+
+}
+
+
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 70%;
 }
 
 /* Clients Section Styles End */
