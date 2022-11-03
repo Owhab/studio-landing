@@ -11,6 +11,36 @@ body{
 
 }
 
+/* Primary Styles */
+
+.section-heading{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+
+}
+.section-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    padding: 40px 0 33px 0;
+
+}
+
+.primary-button{
+    background: #2639ED;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;border-radius: 60px;  
+    border: 0;  
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
 /* Navigation Section Styles Start */
 .navigation{
     display: flex;
@@ -29,7 +59,7 @@ body{
     display: inline;
     list-style: none;
     padding: 0 30px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.01em;
@@ -50,31 +80,27 @@ body{
 
 }
 .hero-heading{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 49px;
+    
 
 }
 .hero-text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    padding: 40px 0 33px 0;
+ 
 
 }
 .contact-button{
-    background: #2639ED;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.065em;
-    color: #FFFFFF;border-radius: 60px;  
-    border: 0;  
-    padding: 20px 40px;
-    cursor: pointer;
+    
 
 }
 
 /* Hero Section Styles End */
+
+/* Client Section Styles Start */
+
+.client-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+/* Clients Section Styles End */
