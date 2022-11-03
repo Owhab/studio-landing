@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 1440px;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+
+}
+
+/* Navigation Section Styles Start */
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.nav-menu{
+
+}
+.nav-menu-items{
+
+}
+.nav-menu-item{
+    display: inline;
+    list-style: none;
+    padding: 0 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+/* Navigation Section Styles End */
+
+
+/* Hero Section Styles Start */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 100px;
+
+}
+.hero-content{
+
+
+}
+.hero-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+}
+.hero-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    padding: 40px 0 33px 0;
+
+}
+.contact-button{
+    background: #2639ED;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;border-radius: 60px;  
+    border: 0;  
+    padding: 20px 40px;
+    cursor: pointer;
+
+}
+
+/* Hero Section Styles End */
