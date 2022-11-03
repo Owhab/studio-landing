@@ -279,3 +279,39 @@ body{
 
 
 /* Subscription Section End */
+
+
+/* Footer Section Styles Start */
+.footer-section{
+    padding: 80px 100px 50px 100px;
+}
+hr{
+        background-color: #E4E4E4;
+}
+.footer-sections{
+    padding: 50px 0;
+}
+
+.footer-section a{
+    text-decoration: none;
+}
+.footer-section h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    }
+.footer-section ul{
+    padding: 0.5rem 0;
+}
+.footer-section ul li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 200%;
+}
+.copyright-text{
+    text-align: center;
+}
+
+/* Footer Section Styles End */
