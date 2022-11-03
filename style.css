@@ -214,3 +214,26 @@ body{
 }
 
 /* Video Section Styles End */
+
+/* Review Section Styles Start */
+.review-section{
+    padding: 0 100px 100px 100px;
+    /* text-align: center; */
+}
+.review-header{
+    text-align: center;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client-image img{
+    max-width: 100%;
+}
+.all-clients img{
+    max-width: 100%;
+}
+
+/* Review Section Styles End */
