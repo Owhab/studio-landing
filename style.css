@@ -229,6 +229,11 @@ body{
     justify-content: space-between;
 }
 
+.slide-pagination{
+    left: 30px !important;
+    bottom: 80px !important;
+}
+
 .client-image img{
     max-width: 100%;
 }
