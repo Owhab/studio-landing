@@ -404,9 +404,12 @@ hr{
         flex-direction: column;
     }
 
-    .swiper-slide{
-        margin-right: 0;
-        margin-left: 30px;
+    .single-slide{
+        /* margin-right: 0; */
+        margin-left: 10px !important;
+    }
+    .single-slide img{
+        margin: auto;
     }
     .review{
         padding: 0 !important;
