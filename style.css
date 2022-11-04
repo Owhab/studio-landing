@@ -361,6 +361,25 @@ hr{
         max-width: 100%;
     }
     /* Client Section End */
-    
+
+    /* Business Section Start */
+    .business-section{
+        margin: 50px 0;
+    }
+    .business{
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    .business-types{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .business-types-left{
+        margin-top: 0;
+    }
+    .business-types-right{
+        margin-top: 0;
+    }
+    /* Business Section End */
 
 }
