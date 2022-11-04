@@ -441,6 +441,22 @@ hr{
 
     /* Subscription Section ENd */
 
+    /* Footer Section Starts */
+    .footer-section{
+        padding: 20px;
+    }
+    .footer-sections{
+        padding: 20px 0;
+    }
+
+    .footer-section h3{
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    /* Footer Section End */
+
 
     .primary-button{
         padding: 10px 15px;
