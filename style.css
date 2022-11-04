@@ -420,4 +420,31 @@ hr{
     }
     /* Review Section End */
 
+    /* Subscription Section Starts */
+    .subscription{
+        margin-top: 50px;
+        padding: 0;
+        background-image: none;
+        flex-direction: column;
+    }
+
+    .subscription-content{
+        padding: 0 20px;
+        
+    }
+    .email-input{
+        font-size: 12px;
+    }
+    .subscribe-input{
+        margin-right: 0;
+    }
+
+    /* Subscription Section ENd */
+
+
+    .primary-button{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
 }
