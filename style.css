@@ -385,4 +385,14 @@ hr{
     }
     /* Business Section End */
 
+    /* Video Section Start */
+    .video-section{
+        padding: 0 20px 20px 20px;
+        flex-direction: column-reverse;
+    }
+    .video-side img{
+        max-width: 100%;
+    }
+    /* Video Section End */
+
 }
