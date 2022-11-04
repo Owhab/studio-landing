@@ -373,6 +373,9 @@ hr{
     .business-types{
         grid-template-columns: repeat(1, 1fr);
     }
+    .business-type{
+        padding: 20px;
+    }
 
     .business-types-left{
         margin-top: 0;
