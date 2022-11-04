@@ -18,6 +18,11 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
 
+    <!-- Popup -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
 </head>
 <body>
 
@@ -116,7 +121,9 @@
     <!-- Video Section Start -->
     <section class="video-section">
         <div class="video-side">
-            <img src="./images/video-image.png" alt="">
+            <a class="video" href="https://www.youtube.com/watch?v=x3c1ih2NJEg">
+                <img class="" src="./images/video-image.png" alt="">
+            </a>
         </div>
         <div class="video-content">
             <h1 class="section-heading video-heading">
@@ -278,6 +285,18 @@
             el: ".swiper-pagination",
             clickable: true,
           },
+        });
+
+        // Video Popup
+        $(function() {
+            $('.video').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
         });
       </script>
 
