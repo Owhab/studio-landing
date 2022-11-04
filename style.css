@@ -457,6 +457,10 @@ hr{
 
     /* Footer Section End */
 
+    .section-heading{
+        font-size: 30px;
+        line-height: 35px;
+    }
 
     .primary-button{
         padding: 10px 15px;
