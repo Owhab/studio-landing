@@ -395,4 +395,26 @@ hr{
     }
     /* Video Section End */
 
+
+    /* Review Section Start */
+    .review-section{
+        padding: 0 20px 20px 20px;
+    }
+    .reviews{
+        flex-direction: column;
+    }
+
+    .swiper-slide{
+        margin-right: 0;
+        margin-left: 30px;
+    }
+    .review{
+        padding: 0 !important;
+    }
+    .slide-pagination{
+        left: 0 !important;
+        bottom: -3px !important;
+    }
+    /* Review Section End */
+
 }
