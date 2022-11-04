@@ -324,3 +324,27 @@ hr{
 }
 
 /* Footer Section Styles End */
+
+
+/* Responsive Design Codes for Small Devices */
+
+@media screen and (max-width: 400px){
+    /* Navigation Start */
+    .navigation{
+        padding: 20px;
+    }
+
+    /* Navigation End */
+
+    /* Hero Section Start */
+    .hero-section{
+        padding: 0 0 0 20px;
+        flex-direction: column-reverse;
+    }
+    .hero-media img{
+        max-width: 100%;
+    }
+
+    /* Hero Section End */
+
+}
