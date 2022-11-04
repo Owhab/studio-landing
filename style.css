@@ -347,4 +347,20 @@ hr{
 
     /* Hero Section End */
 
+    /* Client Section Start */
+    .client-section{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .clients{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .clients img{
+        padding: 15px;
+        max-width: 100%;
+    }
+    /* Client Section End */
+    
+
 }
